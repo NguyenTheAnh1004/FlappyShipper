@@ -9,12 +9,15 @@ export default function App() {
   const [running, setRunning] = useState(false)
   const [gameEngine, setGameEngine] = useState(null)
   const [currentPoints, setCurrentPoints] = useState(0)
+  var background = (currentPoints >= 2)
+  ? require('./img/bgn.png')
+  : require('./img/bg.png');
   useEffect(() => {
     setRunning(false)
   }, [])
   return (
     <View style={{ flex: 1 }}>
-      <ImageBackground source={require('./img/bg.png')} resizeMode="cover" style={styles.image}>
+      <ImageBackground source={background} resizeMode="cover" style={styles.image}>
         <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 20 }}>{currentPoints}</Text>
         <GameEngine
           ref={(ref) => { setGameEngine(ref) }}

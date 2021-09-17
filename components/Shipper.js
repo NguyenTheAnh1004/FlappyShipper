@@ -13,7 +13,7 @@ const Shipper = props => {
 
     return(
         <View style={{     
-            // backgroundColor: 'red',      
+                
             position: 'absolute',
             left: xBody,
             top: yBody,
