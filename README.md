@@ -8,7 +8,7 @@ npm/yarn start
 
 Run on emulator and phone
 
-![image](https://user-images.githubusercontent.com/73542040/133754054-d77e2861-ace4-4ce0-b1b8-c0415490b301.png)
+![image](https://user-images.githubusercontent.com/73542040/133873336-0789c247-448f-4789-b019-14708b40d958.png)
 
 run in the game
 
